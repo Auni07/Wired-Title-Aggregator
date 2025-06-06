@@ -1,0 +1,19 @@
+{
+  "name": "Title Aggregator",
+  "version": "1.0.0",
+  "description": "Display all the of the headlines of articles published from 1st of January 2022 in anti-cronologically sorted order.",
+  "author": "Auni Nafisa",
+  "main": "start.js",
+  "scripts": {
+    "start": "node start.js"
+  },
+  "dependencies": {
+    "axios": "^1.9.0",
+    "cheerio": "^1.0.0",
+    "express": "^5.1.0",
+    "fs": "^0.0.1-security"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
